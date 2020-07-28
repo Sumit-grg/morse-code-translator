@@ -12,17 +12,20 @@
   border: 2px solid black;
   border-radius: 5px;
   background-color: lightgray;
-  // background-image: url("https://media.giphy.com/media/5zdsPpjv6orsBharwg/giphy.gif");
-  // opacity: 0.8;
+  background-image: url("https://cdn.shopify.com/s/files/1/0965/5518/products/Morse_Code_album_cover.JPG?v=1566496045");
+  background-size: cover;
+  opacity: 0.8;
 
   h1 {
     text-align: center;
     padding: 5px;
+    color: white;
   }
   label {
   text-align: center;
   text-decoration: underline;
   font-size: 20px;
+  color: white;
   }
 
   button {
@@ -38,5 +41,6 @@
 
   textarea {
     border-radius: 10px;
+    background-color: lightgray;
   }
 }

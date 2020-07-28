@@ -1,0 +1,42 @@
+* {
+  margin: 5px;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: lightgray;
+  // background-image: url("https://media.giphy.com/media/5zdsPpjv6orsBharwg/giphy.gif");
+  // opacity: 0.8;
+
+  h1 {
+    text-align: center;
+    padding: 5px;
+  }
+  label {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 20px;
+  }
+
+  button {
+    width: 80px;
+    align-self: center;
+    border-radius: 5px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(136, 72, 72);
+    }
+  }
+
+  textarea {
+    border-radius: 10px;
+  }
+}
